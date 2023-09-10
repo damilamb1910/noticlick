@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Noticlick</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./images/logo.png" alt="" />
+      <nav>
+        <ul>
+          <li><a href="#">Deportes</a></li>
+          <li><a href="#">Economía</a></li>
+          <li><a href="#">Politica</a></li>
+          <li><a href="#">Cultura</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="noticias">
+        <h1>NOTICLICK</h1>
+        <h2>Últimas noticias</h2>
+        <article>
+          <a class="noticia__preview" target="_blank" href="noticia1.html">
+            <img
+              src="https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2023/01/water-seen-streaming-icebergs-disko-bay-greenland-were-recently-calved-ilulissat-jakobshavn-glacier-2917158.jpg?tf=1200x"
+              alt="Noticia 1"
+              class="img__preview"
+            />
+            <div>
+              <h3>
+                La NASA revela que la mitad de los glaciares desaparecerán para
+                2100
+              </h3>
+              <p>
+                Un nuevo estudio de la NASA ha revelado que la mitad de los
+                glaciares del mundo podrían desaparecer para 2100. El estudio,
+                publicado en la revista Nature, señala que el cambio climático
+                es la principal causa de este fenómeno.
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a class="noticia__preview" href="noticia2.html">
+            <img
+              src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2023-09/766470-marruecos-20terremoto.jpg?h=69f2b9d0&itok=jZtY93sN"
+              alt="Noticia 2"
+              class="img__preview"
+            />
+            <div>
+              <h3>
+                Terremoto en Marruecos deja más de 2.000 muertos y miles de
+                heridos
+              </h3>
+              <p>
+                Un terremoto de magnitud 6,9 en la escala de Richter ha sacudido
+                este viernes por la noche el centro de Marruecos, dejando al
+                menos 2.012 muertos y más de 2.000 heridos. Las autoridades
+                marroquíes han desplegado a miles de efectivos de rescate para
+                buscar a supervivientes entre los escombros de los edificios
+                derrumbados.
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a class="noticia__preview" href="noticia3.html">
+            <img
+              src="https://media.vozpopuli.com/2023/01/argelia-italia-acuerdo-e1674486053788.jpg"
+              alt="Noticia 3"
+              class="img__preview"
+            />
+            <div>
+              <h3>
+                Italia y Argelia firman un acuerdo para la construcción de un
+                gaseoducto
+              </h3>
+              <p>
+                Argelia y Italia se alían con la construcción de un nuevo
+                gaseoducto para fortalecer su rol como proveedora de gas en
+                Europa. Con ello, ambos países plantean la alternativa al
+                'H2Med', que une a la Península Ibérica con el viejo continente.
+              </p>
+            </div>
+          </a>
+        </article>
+      </section>
+      <section class="formulario">
+        <h2>Contacto</h2>
+        <form action="/enviar.php" method="post">
+          <input type="text" name="nombre" placeholder="Nombre" />
+          <input type="email" name="email" placeholder="Email" />
+          <textarea name="mensaje" placeholder="Mensaje"></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
